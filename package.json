@@ -1,0 +1,23 @@
+{
+  "name": "egg-aws-email",
+  "version": "1.0.1",
+  "description": "egg aws email",
+  "eggPlugin": {
+    "name": "email"
+  },
+  "keywords": [
+    "egg-aws-email",
+    "egg-email",
+    "email"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JerrZhang/egg-aws-email.git"
+  },
+  "author": "jerremyzhang",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.235.1",
+    "nodemailer": "^4.6.4"
+  }
+}
