@@ -15,7 +15,7 @@ exports.email = {
 # Configuration
 ```javascript
 // {app_root}/config/config.default.js
-exports.nodemailer = {
+exports.email = {
     client:{
         "accessKeyId": "your accessKeyId",
         "secretAccessKey": "your secretAccessKey",
