@@ -3,7 +3,7 @@
 npm install --save egg-aws-email
 ```
 
-#Usage
+# Usage
 ```javascript
 // {app_root}/config/plugin.js
 exports.email = {
@@ -12,7 +12,7 @@ exports.email = {
 };
 ```
 
-#Configuration
+# Configuration
 ```javascript
 // {app_root}/config/config.default.js
 exports.nodemailer = {
@@ -24,7 +24,7 @@ exports.nodemailer = {
 };
 ```
 
-#Example 
+# Example 
 ```javascript
 // {app_root}/app/controller/home.js
 const Controller = require('egg').Controller;
@@ -41,4 +41,4 @@ module.exports = class HomeController extends Controller{
 ```
 
 # Questions & Suggestions
-Please open an issue [here](https://github.com/JerrZhang/egg-aws-email.git).
+Please open an issue [here](https://github.com/JerrZhang/egg-aws-email/issues).
